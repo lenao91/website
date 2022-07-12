@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+}
+
+h1.title {
+	color: orange;
+	padding-bottom: 2%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	font-weight: bold;
+	font-size: 1.5em;
+	font-family: monospace;
+	overflow: hidden;
+	width: 100%;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	text-decoration: none;
+	padding: 8px;
+	color: white;
+	border-right: 1px solid grey;
+}
+
+
+li a.active {
+	background-color: lightblue;
+	color: black;
+}
+
+li a:hover:not(.active) {
+	background-color: orange;
+	color: black;
+}
+
+div {
+	padding: 1.1em;
+	font-family: monospace;
+	text-align: center;
+}
+
+.jump-to a{
+	color: lightblue;
+	background-color: grey;
+}
+
+.jump-to a:hover {
+	font-size: 1.2rem;
+	color: lightpink;
+}
+
+.paragraph-title {
+	color: green;
+	text-decoration: underline;
+}
+
+img {
+	width: 30%;
+	height: 30%;
+}
+
+footer {
+	font-family: monospace;
+	text-align: center;
+	color: white;
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 0;
+	width: 100%;
+}
+
+a.footer-link {
+	color: orange;
+}
+
+a.footer-link:hover {
+	color: purple;
+}
+
+.about {
+	float: right;
+}
+
+.title-img {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	z-index: -1;
+}
